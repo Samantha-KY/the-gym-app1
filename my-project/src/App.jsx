@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import populatedDestination from '../../data/populatedDestination'
+import populatedDestination from '../data/populatedDestination'
 import reactLogo from './assets/react.svg' 
-import DestinationCard from '../../components/destinationCard'
+import DestinationCard from '../components/destinationCard'
 function App() {
   const [count, setCount] = useState(0)
 
