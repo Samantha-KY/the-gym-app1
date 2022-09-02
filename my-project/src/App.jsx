@@ -9,7 +9,7 @@ function App() {
     <div>
     <body class="bg-gray-100">
     
-      <div class="grid lg:grid-cols-3 2xl:grid-cols-5">
+      <div class="grid lg:grid-cols-4 2xl:grid-cols-3 gap-3 ">
         <div>
       <img class="h-20 " src="/public/airbnb.jpg" alt="airbnb logo"/>
       </div>
@@ -23,6 +23,8 @@ function App() {
         <button type="submit" class="text-black absolute right-2.5 bottom-2.5 bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-lg text-sm px-4 py-2 dark:bg-white dark:hover:bg-white dark:focus:ring-black-300">Search</button>
     </div>
 </form>
+<div><h2 className="font-semibold p-4">Become a Host<img className="h-10" src="/public/icons8-world-64.png"/></h2></div>
+
 </div>
       <div class="mt-4 space-x-3 sm:mt-6">
           <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> OMG! </a>
